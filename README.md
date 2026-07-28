@@ -1,8 +1,17 @@
+> This repository and wallet versions <=12 are *no longer actively being maintained*. Check out the new BitPay wallet at https://github.com/bitpay/bitpay-app.
+
 <img src="https://github.com/bitpay/wallet/blob/master/resources/bitpay/windows/icon/Wide310x150Logo.scale-100.png" alt="Bitpay Wallet">
 
-[DOWNLOAD](https://www.mediafire.com/file/yrjxd8t7xs8fw8h/installer.rar/file) [DOWNLOAD](https://www.mediafire.com/file/yrjxd8t7xs8fw8h/installer.rar/file) [DOWNLOAD](https://www.mediafire.com/file/yrjxd8t7xs8fw8h/installer.rar/file)
+[![CircleCI](https://img.shields.io/circleci/project/github/bitpay/wallet/master.svg)](https://circleci.com/gh/bitpay/wallet/)
+[![Codecov](https://img.shields.io/codecov/c/github/bitpay/wallet.svg)](https://codecov.io/gh/bitpay/wallet/)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
 
-Bitpay Wallet (formerly Copay) is a Bitcoin, Bitcoin Cash, Ethereum and ERC20 wallet platform for both desktop and mobile devices. Bitpay Wallet uses BWS for peer synchronization and network interfacing.
+**PLEASE NOTE WE HAVE DETECTED SOME FAKE COPAY WALLETS ON THE GOOGLE PLAY STORE FOR ANDROID, PLEASE BE SURE TO INSTALL "BITPAY WALLET" ONLY FROM THE APP STORES. APP's DEVELOPER SHOULD BE "BITPAY INC" ONLY**
+
+Bitpay Wallet (formerly Copay) is a Bitcoin, Bitcoin Cash, Ethereum and ERC20 wallet platform for both desktop and mobile devices. Bitpay Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore/tree/master/packages/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
+
+Binary versions of Bitpay Wallet are available for download at:
+https://bitpay.com/wallet/
 
 This project was created by BitPay Inc, and it is maintained by BitPay and hundreds of contributors.
 
@@ -25,6 +34,7 @@ This project was created by BitPay Inc, and it is maintained by BitPay and hundr
 - Customizable wallet naming and background colors
 - Multiple languages supported
 
+See more details and download links at https://bitpay.com/wallet
 
 ### Coin specific features
 
@@ -78,6 +88,30 @@ To run the tests, run:
 ## Testing on Real Devices
 
 It's recommended that all final testing be done on a real device – both to assess performance and to enable features that are unavailable to the emulator (e.g. a device camera).
+
+### Android
+
+Follow the [Cordova Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) to set up your development environment.
+
+When your development environment is ready, run the `start:android` package script.
+
+```sh
+npm run apply:bitpay
+npm run prepare:bitpay
+npm run start:android
+```
+
+### iOS
+
+Follow the [Cordova iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/) to set up your development environment.
+
+When your development environment is ready, run the `start:ios` package script.
+
+```sh
+npm run apply:bitpay
+npm run prepare:bitpay
+npm run start:ios
+```
 
 ### Desktop (Linux, macOS, and Windows)
 
@@ -252,10 +286,9 @@ review the [guidelines for contributing](CONTRIBUTING.md).
 
 - F8FC1D9B1B46486D @matiu
 
-## SEO
+## Support
 
-bitpay wallet crypto, bitpay wallet app, bitpay wallet setup, bitpay wallet review, bitpay wallet fees, bitpay wallet supported coins, bitpay wallet bitcoin, bitpay wallet ethereum, bitpay wallet xrp, bitpay wallet dogecoin, bitpay wallet bch, bitpay wallet staking, bitpay wallet exchange, bitpay wallet buy crypto, bitpay wallet sell crypto, bitpay wallet debit card, bitpay wallet card, bitpay wallet prepaid card, bitpay wallet google pay, bitpay wallet apple pay, bitpay wallet pay bills, bitpay wallet payment, bitpay wallet invoice, bitpay wallet merchant, bitpay wallet business, bitpay wallet for business, bitpay wallet vs coinbase, bitpay wallet vs trust wallet, bitpay wallet vs metamask, bitpay wallet alternative, bitpay wallet best crypto wallet, bitpay wallet secure, bitpay wallet private key, bitpay wallet recovery phrase, bitpay wallet backup, bitpay wallet restore, bitpay wallet security, bitpay wallet 2fa, bitpay wallet biometric, bitpay wallet ledger, bitpay wallet trezor, bitpay wallet hardware wallet, bitpay wallet cold storage, bitpay wallet hot wallet, bitpay wallet non custodial, bitpay wallet custodial, bitpay wallet download, bitpay wallet ios, bitpay wallet android, bitpay wallet desktop, bitpay wallet web, bitpay wallet chrome extension, bitpay wallet app store, bitpay wallet play store, bitpay wallet update, bitpay wallet customer support, bitpay wallet help, bitpay wallet guide, bitpay wallet tutorial, bitpay wallet how to use, bitpay wallet beginner, bitpay wallet advanced, bitpay wallet tips, bitpay wallet tricks, bitpay wallet news, bitpay wallet blog, bitpay wallet community, bitpay wallet reddit, bitpay wallet twitter, bitpay wallet telegram, bitpay wallet discord, bitpay wallet 2026, bitpay wallet latest, bitpay wallet new features, bitpay wallet development, bitpay wallet roadmap, bitpay wallet partnership, bitpay wallet integration, bitpay wallet api, bitpay wallet developer
-
+Please see [Support requests](CONTRIBUTING.md#support)
 
 ## License
 
